@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "description": "sample code using pgp encryption",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aumer Hadi",
   "license": "ISC",
   "dependencies": {
+    "fs": "0.0.1-security",
     "openpgp": "^5.0.0-5"
   }
 }
